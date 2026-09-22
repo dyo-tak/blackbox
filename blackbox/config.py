@@ -25,6 +25,7 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-# Convenience alias: `from blackbox import config; config.settings.db_url`
+# Canonical export: `from blackbox import config; config.db_url`
+# (attribute access on the instance itself, no `.settings` hop)
 config = settings
 
