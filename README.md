@@ -1,4 +1,4 @@
-# Decision Flight Recorder 🛩️
+# blackbox
 
 **A replay debugger + observability platform for non-generative AI decisions.**
 
