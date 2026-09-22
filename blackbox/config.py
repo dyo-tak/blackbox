@@ -24,3 +24,7 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+# Convenience alias: `from blackbox import config; config.settings.db_url`
+config = settings
+
